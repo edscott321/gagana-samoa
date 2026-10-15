@@ -1,0 +1,337 @@
+{
+ "levels": {
+  "A1": {
+   "name": "A1",
+   "actfl": "Novice",
+   "can": "Greet people, say who you are, count, and get through simple everyday moments."
+  },
+  "A2": {
+   "name": "A2",
+   "actfl": "Intermediate Low to Mid",
+   "can": "Talk about time, home, family plans and shopping, and say what happened or will happen."
+  },
+  "B1": {
+   "name": "B1",
+   "actfl": "Intermediate High",
+   "can": "Join ideas, follow everyday fast talk, and take part in family and village life with the right respect."
+  }
+ },
+ "worlds": [
+  {
+   "id": "bay",
+   "name": "San José & the Bay",
+   "sm": "",
+   "level": "A1",
+   "art": "bay",
+   "icons": [
+    "town",
+    "city",
+    "island",
+    "town",
+    "church",
+    "city"
+   ],
+   "line": "Sounds, hello, and pointing at things.",
+   "nodes": [
+    "pc:1",
+    "g:sounds",
+    "pc:2",
+    "g:greetings",
+    "pc:3",
+    "g:pointing",
+    "j:epa"
+   ]
+  },
+  {
+   "id": "la",
+   "name": "Los Angeles",
+   "sm": "",
+   "level": "A1",
+   "art": "la",
+   "icons": [
+    "city",
+    "palm",
+    "town",
+    "wave",
+    "city",
+    "palm",
+    "town"
+   ],
+   "line": "Who you are, where you’re from, and counting.",
+   "nodes": [
+    "g:articles",
+    "pc:4",
+    "g:o",
+    "pc:6",
+    "g:numbers",
+    "g:negative",
+    "g:review-1",
+    "j:la"
+   ]
+  },
+  {
+   "id": "utah",
+   "name": "Utah",
+   "sm": "Iuta",
+   "level": "A1",
+   "art": "utah",
+   "icons": [
+    "peak",
+    "town",
+    "pine",
+    "arch",
+    "town"
+   ],
+   "line": "Family, feelings, and telling people what to do.",
+   "nodes": [
+    "pc:14",
+    "g:adjectives",
+    "pc:5",
+    "pc:11",
+    "g:commands",
+    "j:utah"
+   ]
+  },
+  {
+   "id": "nw",
+   "name": "Seattle & Portland",
+   "sm": "",
+   "level": "A2",
+   "art": "nw",
+   "icons": [
+    "city",
+    "pine",
+    "peak",
+    "town",
+    "city",
+    "pine",
+    "tower",
+    "town"
+   ],
+   "line": "Time, days, weather and shopping.",
+   "nodes": [
+    "pc:7",
+    "g:time",
+    "pc:47",
+    "g:calendar",
+    "pc:40",
+    "j:wa",
+    "pc:8",
+    "g:buying",
+    "j:or"
+   ]
+  },
+  {
+   "id": "ny",
+   "name": "New York",
+   "sm": "Niu Ioka",
+   "level": "A2",
+   "art": "ny",
+   "icons": [
+    "city",
+    "tower",
+    "city",
+    "town",
+    "city",
+    "tower"
+   ],
+   "line": "Where things are, questions, feelings and pronouns.",
+   "nodes": [
+    "pc:10",
+    "g:location",
+    "pc:9",
+    "pc:22",
+    "pc:42",
+    "pc:19",
+    "g:pronouns",
+    "j:ny"
+   ]
+  },
+  {
+   "id": "hi",
+   "name": "Hawaiʻi",
+   "sm": "Hawaiʻi",
+   "level": "A2",
+   "art": "hi",
+   "icons": [
+    "island",
+    "wave",
+    "fale",
+    "palm",
+    "island",
+    "town",
+    "wave"
+   ],
+   "line": "Home, food, plans and invitations.",
+   "nodes": [
+    "pc:26",
+    "g:house",
+    "pc:18",
+    "g:verbs",
+    "pc:20",
+    "pc:24",
+    "pc:33",
+    "j:laie"
+   ]
+  },
+  {
+   "id": "as",
+   "name": "Amerika Sāmoa",
+   "sm": "Amerika Sāmoa",
+   "level": "A2",
+   "art": "as",
+   "icons": [
+    "island",
+    "fale",
+    "peak",
+    "canoe",
+    "church",
+    "island",
+    "fale"
+   ],
+   "line": "Past, present and future, and meeting people of rank.",
+   "nodes": [
+    "pc:12",
+    "g:tenses",
+    "g:verb-use",
+    "g:negative-tenses",
+    "pc:13",
+    "pc:28",
+    "pc:16",
+    "j:tutuila"
+   ]
+  },
+  {
+   "id": "fiji",
+   "name": "Fiji",
+   "sm": "Fiti",
+   "level": "B1",
+   "art": "fiji",
+   "icons": [
+    "island",
+    "canoe",
+    "island",
+    "town",
+    "island",
+    "canoe"
+   ],
+   "line": "Whose is it, places on the map, and your work.",
+   "nodes": [
+    "g:pronoun-use",
+    "pc:29",
+    "g:possessives",
+    "pc:38",
+    "pc:15",
+    "pc:39",
+    "j:suva"
+   ]
+  },
+  {
+   "id": "nz",
+   "name": "Aotearoa",
+   "sm": "Niu Sila",
+   "level": "B1",
+   "art": "nz",
+   "icons": [
+    "city",
+    "volcano",
+    "town",
+    "tower",
+    "island",
+    "city",
+    "town"
+   ],
+   "line": "Describing, to be and to have, and getting around.",
+   "nodes": [
+    "pc:32",
+    "g:adjectives-2",
+    "g:to-be",
+    "g:to-have",
+    "pc:27",
+    "pc:21",
+    "pc:34",
+    "j:akl"
+   ]
+  },
+  {
+   "id": "apia",
+   "name": "Apia",
+   "sm": "Apia",
+   "level": "B1",
+   "art": "apia",
+   "icons": [
+    "town",
+    "church",
+    "tower",
+    "town",
+    "canoe",
+    "church"
+   ],
+   "line": "Word order, the little word ai, and fast everyday talk.",
+   "nodes": [
+    "pc:36",
+    "g:ai",
+    "pc:37",
+    "g:word-order",
+    "pc:25",
+    "pc:35",
+    "g:conversations",
+    "j:apia"
+   ]
+  },
+  {
+   "id": "upolu",
+   "name": "Upolu",
+   "sm": "Upolu",
+   "level": "B1",
+   "art": "upolu",
+   "icons": [
+    "fale",
+    "island",
+    "wave",
+    "fale",
+    "palm",
+    "island"
+   ],
+   "line": "Joining ideas, dinner, gifts and comebacks.",
+   "nodes": [
+    "pc:23",
+    "g:conjunctions",
+    "pc:31",
+    "pc:17",
+    "pc:41",
+    "pc:30",
+    "j:upolu"
+   ]
+  },
+  {
+   "id": "savaii",
+   "name": "Savaiʻi",
+   "sm": "Savaiʻi",
+   "level": "B1",
+   "art": "savaii",
+   "icons": [
+    "volcano",
+    "fale",
+    "island",
+    "wave",
+    "church",
+    "fale",
+    "palm",
+    "volcano"
+   ],
+   "line": "Weddings, funerals, kirikiti and songs: faʻasāmoa, all of it.",
+   "nodes": [
+    "pc:44",
+    "pc:45",
+    "pc:43",
+    "pc:46",
+    "pc:48",
+    "g:word-games",
+    "g:review-2",
+    "j:savaii",
+    "j:home"
+   ]
+  }
+ ]
+}

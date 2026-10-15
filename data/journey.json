@@ -1,0 +1,2232 @@
+{
+ "story": {
+  "title": "Malaga",
+  "lede": "Nana Losa turns 80 this year, and the whole ʻāiga is going home to Savaiʻi for it. She has asked you for one thing: greet the family in Samoan. On the way you’ll visit every branch of the family, from the Bay to Savaiʻi, and learn a little at each house."
+ },
+ "stops": [
+  {
+   "id": "epa",
+   "place": "East Palo Alto",
+   "region": "California",
+   "lat": 37.468,
+   "lon": -122.141,
+   "host": {
+    "name": "Aunty Mele",
+    "face": "👩🏽"
+   },
+   "title": "Sunday at Aunty Mele’s",
+   "art": {
+    "sky": "day",
+    "far": "hills-gold",
+    "near": "street",
+    "things": [
+     "house",
+     "palm1",
+     "car"
+    ]
+   },
+   "intro": [
+    "Sunday afternoon in East Palo Alto. Aunty Mele’s family is home from church and the toʻonaʻi, the Sunday meal, is on the table.",
+    "The aunties are sitting on the couch by the door."
+   ],
+   "words": [
+    {
+     "sm": "Tālofa lava",
+     "en": "Hello (warm, polite)"
+    },
+    {
+     "sm": "ʻO ā mai ʻoe?",
+     "en": "How are you?"
+    },
+    {
+     "sm": "Manuia faʻafetai.",
+     "en": "Fine, thanks."
+    },
+    {
+     "sm": "tulou",
+     "en": "excuse me (passing in front of people)",
+     "note": "Say it with your head and shoulders a little lower."
+    },
+    {
+     "sm": "Faʻafetai tele.",
+     "en": "Thank you very much."
+    }
+   ],
+   "talk": [
+    {
+     "who": "Aunty Mele",
+     "sm": "Tālofa lava! Sau i totonu.",
+     "en": "Hello! Come inside."
+    },
+    {
+     "prompt": "Greet your aunty.",
+     "choose": [
+      {
+       "sm": "Tālofa lava, Aunty Mele.",
+       "en": "Hello, Aunty Mele.",
+       "ok": true
+      },
+      {
+       "sm": "Tōfā soifua.",
+       "en": "Goodbye.",
+       "ok": false,
+       "why": "That’s goodbye. You just got here!"
+      },
+      {
+       "sm": "Hey.",
+       "en": "Hey.",
+       "ok": false,
+       "why": "Aunty laughs. “Hey is for your friends. For your elders: Tālofa lava.”"
+      }
+     ]
+    },
+    {
+     "who": "Aunty Mele",
+     "sm": "ʻO ā mai ʻoe?",
+     "en": "How are you?"
+    },
+    {
+     "prompt": "Answer her, and ask her back.",
+     "choose": [
+      {
+       "sm": "Manuia faʻafetai. ʻAe ā ʻoe?",
+       "en": "Fine, thanks. And you?",
+       "ok": true
+      },
+      {
+       "sm": "ʻO aʻu ʻo Mele.",
+       "en": "I’m Mele.",
+       "ok": false,
+       "why": "That says “I’m Mele.” She’s Mele!"
+      },
+      {
+       "sm": "Leai.",
+       "en": "No.",
+       "ok": false,
+       "why": "Leai is “no.” She asked how you are."
+      }
+     ]
+    },
+    {
+     "who": "Aunty Mele",
+     "sm": "Manuia foʻi faʻafetai.",
+     "en": "Fine too, thanks."
+    },
+    {
+     "narr": "To reach the table you have to pass in front of the aunties on the couch."
+    },
+    {
+     "prompt": "What do you do?",
+     "choose": [
+      {
+       "act": "Lower your head and shoulders a little and say “Tulou.”",
+       "ok": true
+      },
+      {
+       "act": "Walk past quickly without a word.",
+       "ok": false,
+       "why": "The aunties notice. Tulou is the word for passing in front of them."
+      },
+      {
+       "act": "Say “Sau i totonu.”",
+       "ok": false,
+       "why": "That’s “come inside,” what Aunty said to you."
+      }
+     ]
+    },
+    {
+     "who": "Aunty Mele",
+     "sm": "Mālō! Nofo ʻi lalo, faʻamolemole.",
+     "en": "Well done! Sit down, please."
+    },
+    {
+     "who": "Aunty Mele",
+     "sm": "ʻUa ʻou fiafia ʻauā ʻua ʻe sau.",
+     "en": "I’m happy because you came."
+    },
+    {
+     "prompt": "Thank her.",
+     "choose": [
+      {
+       "sm": "Faʻafetai tele.",
+       "en": "Thank you very much.",
+       "ok": true
+      },
+      {
+       "sm": "ʻO ā mai ʻoe?",
+       "en": "How are you?",
+       "ok": false,
+       "why": "You asked that already. Now: thank you very much."
+      }
+     ]
+    }
+   ],
+   "culture": "Tulou is what you say as you pass in front of people who are sitting, often with your head and shoulders a little lower. With this many aunties on the couch, you’ll say it a lot at Aunty Mele’s.",
+   "keep": {
+    "icon": "🌺",
+    "sm": "pua",
+    "en": "a frangipani from Aunty’s pot by the door"
+   },
+   "bless": {
+    "who": "Aunty Mele",
+    "sm": "ʻIa manuia lau malaga!",
+    "en": "Have a good journey!",
+    "check": true
+   }
+  },
+  {
+   "id": "la",
+   "place": "Carson",
+   "region": "California",
+   "lat": 33.83,
+   "lon": -118.28,
+   "host": {
+    "name": "Aunty Lupe",
+    "face": "👩🏽‍🦱"
+   },
+   "title": "Siva practice in Carson",
+   "art": {
+    "sky": "dusk",
+    "far": "hills-gold",
+    "near": "street",
+    "things": [
+     "church",
+     "palm3",
+     "lights"
+    ]
+   },
+   "intro": [
+    "Carson, next to Long Beach in Los Angeles County, is home to one of the biggest Samoan communities on the mainland.",
+    "Aunty Lupe is teaching the cousins a siva, a dance, for Nana’s birthday. Practice is in the church hall."
+   ],
+   "words": [
+    {
+     "sm": "siva",
+     "en": "dance; to dance"
+    },
+    {
+     "sm": "lima",
+     "en": "five; also hand"
+    },
+    {
+     "sm": "E fia ou tausaga?",
+     "en": "How old are you?"
+    },
+    {
+     "sm": "luasefulu",
+     "en": "twenty"
+    },
+    {
+     "sm": "taualuga",
+     "en": "the last dance of a celebration",
+     "note": "Danced by someone honored, often the person the party is for."
+    }
+   ],
+   "talk": [
+    {
+     "who": "Aunty Lupe",
+     "sm": "Tālofa lava! ʻO ai lou igoa?",
+     "en": "Hello! What’s your name?"
+    },
+    {
+     "prompt": "Tell her your name.",
+     "choose": [
+      {
+       "sm": "ʻO loʻu igoa ʻo {me}.",
+       "en": "My name is {me}.",
+       "ok": true
+      },
+      {
+       "sm": "ʻO ai lou igoa?",
+       "en": "What’s your name?",
+       "ok": false,
+       "why": "That’s her question, back to her."
+      }
+     ]
+    },
+    {
+     "who": "Aunty Lupe",
+     "sm": "E fia ou tausaga?",
+     "en": "How old are you?"
+    },
+    {
+     "prompt": "Say you’re twenty (or pretend!).",
+     "choose": [
+      {
+       "sm": "E luasefulu oʻu tausaga.",
+       "en": "I’m twenty.",
+       "ok": true
+      },
+      {
+       "sm": "E lua tālā.",
+       "en": "Two dollars.",
+       "ok": false,
+       "why": "That’s a price, not an age! Twenty is luasefulu."
+      }
+     ]
+    },
+    {
+     "narr": "She starts the count, and the cousins’ hands move slowly through the air: tasi, lua, tolu..."
+    },
+    {
+     "prompt": "What comes after tolu?",
+     "choose": [
+      {
+       "sm": "fā",
+       "en": "four",
+       "ok": true
+      },
+      {
+       "sm": "lima",
+       "en": "five",
+       "ok": false,
+       "why": "Lima is five, and it’s also the word for hand. But after tolu comes fā."
+      },
+      {
+       "sm": "fitu",
+       "en": "seven",
+       "ok": false,
+       "why": "Fitu is seven. After tolu (three) comes fā (four)."
+      }
+     ]
+    },
+    {
+     "who": "Aunty Lupe",
+     "sm": "Mālō le siva!",
+     "en": "Well done on the dancing!",
+     "check": true
+    },
+    {
+     "prompt": "She praised your dancing.",
+     "choose": [
+      {
+       "sm": "Faʻafetai, Aunty.",
+       "en": "Thank you, Aunty.",
+       "ok": true
+      }
+     ]
+    },
+    {
+     "narr": "Aunty explains: at Nana’s party the last dance is the taualuga, and Nana will dance it. The family dances around her."
+    },
+    {
+     "prompt": "When Nana dances the taualuga, who is the star?",
+     "choose": [
+      {
+       "act": "Nana. Everyone else dances around her, lower and smaller, so she shines.",
+       "ok": true
+      },
+      {
+       "act": "You: get in front so everyone sees your new moves.",
+       "ok": false,
+       "why": "Aunty laughs. Tonight the taualuga is Nana’s."
+      }
+     ]
+    }
+   ],
+   "culture": "At Nana’s party the taualuga, the last dance, is hers. The family dances around her, keeping lower and clowning a little, so she shines.",
+   "keep": {
+    "icon": "🎵",
+    "sm": "pese",
+    "en": "the taualuga song, saved on your phone"
+   },
+   "bless": {
+    "who": "Aunty Lupe",
+    "sm": "ʻIa manuia lau malaga!",
+    "en": "Have a good journey!",
+    "check": true
+   }
+  },
+  {
+   "id": "utah",
+   "place": "Salt Lake Valley",
+   "region": "Utah",
+   "lat": 40.69,
+   "lon": -111.99,
+   "host": {
+    "name": "Nana Losa",
+    "face": "👵🏽"
+   },
+   "title": "Nana’s photo album",
+   "art": {
+    "sky": "day",
+    "far": "peaks-snow",
+    "near": "land",
+    "things": [
+     "house",
+     "pines"
+    ]
+   },
+   "intro": [
+    "Nana Losa lives in the Salt Lake Valley, with the Wasatch Mountains behind her house. Polynesian families have lived in Utah since the 1800s, and today it has one of the biggest Samoan communities on the mainland.",
+    "Before the trip, Nana wants you to know who’s who."
+   ],
+   "words": [
+    {
+     "sm": "ʻāiga",
+     "en": "family"
+    },
+    {
+     "sm": "uso",
+     "en": "brother of a man, sister of a woman"
+    },
+    {
+     "sm": "tuafafine",
+     "en": "a man’s sister"
+    },
+    {
+     "sm": "tuagane",
+     "en": "a woman’s brother"
+    }
+   ],
+   "talk": [
+    {
+     "who": "Nana Losa",
+     "sm": "Tālofa lava, {me}!",
+     "en": "Hello, {me}!"
+    },
+    {
+     "prompt": "Greet Nana.",
+     "choose": [
+      {
+       "sm": "Tālofa lava, Nana.",
+       "en": "Hello, Nana.",
+       "ok": true
+      },
+      {
+       "sm": "Sau i totonu.",
+       "en": "Come inside.",
+       "ok": false,
+       "why": "That’s what the host says. This is Nana’s house."
+      }
+     ]
+    },
+    {
+     "who": "Nana Losa",
+     "sm": "ʻO ā mai lou tinā?",
+     "en": "How is your mother?"
+    },
+    {
+     "prompt": "Your mother is well.",
+     "choose": [
+      {
+       "sm": "ʻOloʻo manuia faʻafetai.",
+       "en": "She’s fine, thanks.",
+       "ok": true
+      },
+      {
+       "sm": "Manuia foʻi faʻafetai.",
+       "en": "Fine too, thanks.",
+       "ok": false,
+       "why": "Foʻi means “too,” and Nana hasn’t said how she is. Say: ʻOloʻo manuia faʻafetai."
+      }
+     ]
+    },
+    {
+     "narr": "Nana opens the photo album."
+    },
+    {
+     "who": "Nana Losa",
+     "sm": "ʻO loʻu tuagane lenei, ʻo Ioane.",
+     "en": "This is my brother, Ioane.",
+     "check": true
+    },
+    {
+     "who": "Nana Losa",
+     "sm": "ʻO loʻu uso lenei, ʻo Malia.",
+     "en": "This is my sister, Malia.",
+     "check": true
+    },
+    {
+     "prompt": "Uncle Ioane talks about Nana. What does he call her?",
+     "choose": [
+      {
+       "sm": "loʻu tuafafine",
+       "en": "my sister (said by a man)",
+       "ok": true
+      },
+      {
+       "sm": "loʻu tuagane",
+       "en": "my brother (said by a woman)",
+       "ok": false,
+       "why": "Tuagane is a woman’s brother. A man’s sister is his tuafafine."
+      },
+      {
+       "sm": "loʻu uso",
+       "en": "my brother or sister (same sex)",
+       "ok": false,
+       "why": "Uso is a brother or sister of the same sex. Nana and Ioane are sister and brother."
+      }
+     ]
+    },
+    {
+     "who": "Nana Losa",
+     "sm": "Mālō! E nofo Ioane i Savaiʻi.",
+     "en": "Well done! Ioane lives in Savaiʻi.",
+     "check": true
+    },
+    {
+     "who": "Nana Losa",
+     "sm": "Alu e asiasi i lou ʻāiga.",
+     "en": "Go and visit your family.",
+     "check": true
+    },
+    {
+     "prompt": "Nana has asked you something.",
+     "choose": [
+      {
+       "sm": "ʻIoe, Nana.",
+       "en": "Yes, Nana.",
+       "ok": true
+      },
+      {
+       "sm": "Leai.",
+       "en": "No.",
+       "ok": false,
+       "why": "Nana raises an eyebrow. She was hoping for ʻIoe."
+      }
+     ]
+    }
+   ],
+   "culture": "Samoan has its own words for brothers and sisters: uso for a sibling of the same sex, tuafafine for a man’s sister, tuagane for a woman’s brother. The bond between a brother and a sister is called the feagaiga.",
+   "keep": {
+    "icon": "mat",
+    "sm": "ʻie tōga",
+    "en": "Nana’s fine mat, to carry home to Savaiʻi"
+   },
+   "bless": {
+    "who": "Nana Losa",
+    "sm": "ʻIa manuia lau malaga!",
+    "en": "Have a good journey!",
+    "check": true
+   }
+  },
+  {
+   "id": "wa",
+   "place": "Federal Way",
+   "region": "Washington",
+   "lat": 47.322,
+   "lon": -122.313,
+   "host": {
+    "name": "Uncle Tavita",
+    "face": "👨🏽"
+   },
+   "title": "Choir practice in the rain",
+   "art": {
+    "sky": "rain",
+    "far": "rainier",
+    "near": "land",
+    "things": [
+     "church",
+     "pines",
+     "rain"
+    ]
+   },
+   "intro": [
+    "It’s raining in Federal Way, south of Seattle, with Mount Rainier hidden in the clouds. The Seattle–Tacoma area has one of the biggest Samoan communities in the country.",
+    "Uncle Tavita leads his church’s choir, and practice is tonight."
+   ],
+   "words": [
+    {
+     "sm": "timu",
+     "en": "rain"
+    },
+    {
+     "sm": "pese",
+     "en": "song; to sing"
+    },
+    {
+     "sm": "ʻUa tā le fia?",
+     "en": "What time is it?"
+    },
+    {
+     "sm": "Aso Lulu",
+     "en": "Wednesday"
+    }
+   ],
+   "talk": [
+    {
+     "who": "Uncle Tavita",
+     "sm": "Tālofa! ʻOloʻo timu.",
+     "en": "Hello! It’s raining."
+    },
+    {
+     "prompt": "Say something about the rain.",
+     "choose": [
+      {
+       "sm": "ʻOu te fiafia i le timu.",
+       "en": "I like the rain.",
+       "ok": true
+      },
+      {
+       "sm": "ʻOu te lē fiafia i le timu.",
+       "en": "I don’t like the rain.",
+       "ok": true
+      },
+      {
+       "sm": "ʻUa ʻuma.",
+       "en": "It’s all gone.",
+       "ok": false,
+       "why": "That’s “it’s all gone,” for the market. The rain is not gone."
+      }
+     ]
+    },
+    {
+     "who": "Uncle Tavita",
+     "sm": "ʻE te pese?",
+     "en": "Do you sing?",
+     "check": true
+    },
+    {
+     "prompt": "Do you sing?",
+     "choose": [
+      {
+       "sm": "ʻIoe.",
+       "en": "Yes.",
+       "ok": true
+      },
+      {
+       "sm": "ʻO le Aso Lulu.",
+       "en": "It’s Wednesday.",
+       "ok": false,
+       "why": "True, it is Wednesday. But he asked if you sing."
+      }
+     ]
+    },
+    {
+     "who": "Uncle Tavita",
+     "sm": "Lelei! ʻO le pese lenei.",
+     "en": "Good! This is the song.",
+     "check": true
+    },
+    {
+     "narr": "He hands you a hymn book. Then he pats his wrist: he left his watch at home."
+    },
+    {
+     "who": "Uncle Tavita",
+     "sm": "ʻUa tā le fia?",
+     "en": "What time is it?"
+    },
+    {
+     "narr": "Your phone says 7:00."
+    },
+    {
+     "prompt": "Tell him the time.",
+     "choose": [
+      {
+       "sm": "ʻUa tā le fitu.",
+       "en": "It’s seven o’clock.",
+       "ok": true
+      },
+      {
+       "sm": "ʻUa tā le tasi.",
+       "en": "It’s one o’clock.",
+       "ok": false,
+       "why": "Tasi is one. Seven is fitu."
+      },
+      {
+       "sm": "ʻUa tā le fia?",
+       "en": "What time is it?",
+       "ok": false,
+       "why": "That’s his question, back to him."
+      }
+     ]
+    },
+    {
+     "narr": "Everyone stands, and the choir starts the hymn in four parts."
+    },
+    {
+     "who": "Uncle Tavita",
+     "sm": "Mālō le pese!",
+     "en": "Well done on the singing!",
+     "check": true
+    },
+    {
+     "prompt": "He praised your singing.",
+     "choose": [
+      {
+       "sm": "Faʻafetai, Uncle.",
+       "en": "Thank you, Uncle.",
+       "ok": true
+      },
+      {
+       "sm": "Tōfā.",
+       "en": "Bye.",
+       "ok": false,
+       "why": "Not yet! Thank him first."
+      }
+     ]
+    }
+   ],
+   "culture": "Mālō praises something someone has done: Mālō le pese! for a song, Mālō le faʻauli! for the drive home. Uncle Tavita praised you, and you thanked him back.",
+   "keep": {
+    "icon": "📖",
+    "sm": "tusi pese",
+    "en": "Uncle Tavita’s spare hymn book"
+   },
+   "bless": {
+    "who": "Uncle Tavita",
+    "sm": "ʻIa manuia lau malaga!",
+    "en": "Have a good journey!",
+    "check": true
+   }
+  },
+  {
+   "id": "or",
+   "place": "Portland",
+   "region": "Oregon",
+   "lat": 45.571,
+   "lon": -122.676,
+   "host": {
+    "name": "Aunty Fetū",
+    "face": "👵🏽"
+   },
+   "title": "The festival in Peninsula Park",
+   "art": {
+    "sky": "day",
+    "far": "hood",
+    "near": "park",
+    "things": [
+     "tents",
+     "trees"
+    ]
+   },
+   "intro": [
+    "Summer in Portland. Every year the Portland-Vancouver Samoan Festival fills Peninsula Park in North Portland with music, dancing and food stalls.",
+    "Aunty Fetū has a stall of buns and coconuts. You need something to bring the family."
+   ],
+   "words": [
+    {
+     "sm": "E iai ni tou …?",
+     "en": "Do you have any …?"
+    },
+    {
+     "sm": "E fia le tau?",
+     "en": "How much is it?"
+    },
+    {
+     "sm": "tālā",
+     "en": "dollar"
+    },
+    {
+     "sm": "pani",
+     "en": "bun"
+    },
+    {
+     "sm": "niu",
+     "en": "coconut"
+    }
+   ],
+   "talk": [
+    {
+     "who": "Aunty Fetū",
+     "sm": "Tālofa! Susū mai.",
+     "en": "Hello! Welcome."
+    },
+    {
+     "prompt": "Ask if she has buns.",
+     "choose": [
+      {
+       "sm": "Tālofa lava. E iai ni tou pani, faʻamolemole?",
+       "en": "Hello. Do you have any buns, please?",
+       "ok": true
+      },
+      {
+       "sm": "Pani!",
+       "en": "Buns!",
+       "ok": false,
+       "why": "Aunty waits. Start with tālofa, and end with faʻamolemole."
+      }
+     ]
+    },
+    {
+     "who": "Aunty Fetū",
+     "sm": "ʻIoe. E tele.",
+     "en": "Yes. There’s plenty."
+    },
+    {
+     "prompt": "Ask the price.",
+     "choose": [
+      {
+       "sm": "E fia le tau?",
+       "en": "How much is it?",
+       "ok": true
+      },
+      {
+       "sm": "ʻO ai lou igoa?",
+       "en": "What’s your name?",
+       "ok": false,
+       "why": "That’s “what’s your name?” Ask the price first."
+      }
+     ]
+    },
+    {
+     "who": "Aunty Fetū",
+     "sm": "E lua tālā i le pani e tasi.",
+     "en": "Two dollars a bun."
+    },
+    {
+     "prompt": "Buy a bun and a coconut.",
+     "choose": [
+      {
+       "sm": "ʻAumai se pani ma se niu, faʻamolemole.",
+       "en": "A bun and a coconut, please.",
+       "ok": true
+      },
+      {
+       "sm": "E taugatā!",
+       "en": "That’s expensive!",
+       "ok": false,
+       "why": "Aunty laughs. Two dollars is a fair price, and it all goes to her church."
+      }
+     ]
+    },
+    {
+     "who": "Aunty Fetū",
+     "sm": "ʻO le niu, e lua foʻi tālā.",
+     "en": "The coconut is two dollars too.",
+     "check": true
+    },
+    {
+     "prompt": "How much is that altogether?",
+     "choose": [
+      {
+       "sm": "E fā tālā.",
+       "en": "Four dollars.",
+       "ok": true
+      },
+      {
+       "sm": "E lua tālā.",
+       "en": "Two dollars.",
+       "ok": false,
+       "why": "Two for the bun and two for the coconut: fā, four."
+      },
+      {
+       "sm": "E valu tālā.",
+       "en": "Eight dollars.",
+       "ok": false,
+       "why": "Valu is eight. Two and two is fā."
+      }
+     ]
+    },
+    {
+     "who": "Aunty Fetū",
+     "sm": "Faʻafetai!",
+     "en": "Thank you!"
+    },
+    {
+     "prompt": "Thank her back.",
+     "choose": [
+      {
+       "sm": "Faʻafetai foʻi.",
+       "en": "Thank you too.",
+       "ok": true
+      },
+      {
+       "sm": "ʻUa ʻuma.",
+       "en": "It’s all gone.",
+       "ok": false,
+       "why": "Her buns aren’t gone yet! Say: thank you too."
+      }
+     ]
+    }
+   ],
+   "culture": "An oso is a food gift you bring when you visit family. Aunty Fetū’s buns are the start of yours.",
+   "keep": {
+    "icon": "🍞",
+    "sm": "pani",
+    "en": "buns for your oso"
+   },
+   "bless": {
+    "who": "Aunty Fetū",
+    "sm": "ʻIa manuia lau malaga!",
+    "en": "Have a good journey!",
+    "check": true
+   }
+  },
+  {
+   "id": "ny",
+   "place": "New York",
+   "region": "New York",
+   "lat": 40.73,
+   "lon": -73.99,
+   "host": {
+    "name": "Sina",
+    "face": "🧑🏽"
+   },
+   "title": "A call home from New York",
+   "art": {
+    "sky": "night",
+    "far": "skyline",
+    "near": "street",
+    "things": [
+     "lights",
+     "stars"
+    ]
+   },
+   "intro": [
+    "Your cousin Sina is at college in New York, a long way from the rest of the ʻāiga. It’s late and she’s homesick.",
+    "You call Nana together."
+   ],
+   "words": [
+    {
+     "sm": "faʻanoanoa",
+     "en": "sad"
+    },
+    {
+     "sm": "fiafia",
+     "en": "happy"
+    },
+    {
+     "sm": "tālofa e",
+     "en": "oh, I’m sorry (sympathy)"
+    },
+    {
+     "sm": "alofa",
+     "en": "love"
+    },
+    {
+     "sm": "ʻoulua",
+     "en": "you two"
+    }
+   ],
+   "talk": [
+    {
+     "who": "Sina",
+     "sm": "Tālofa. ʻUa ʻou faʻanoanoa.",
+     "en": "Hi. I’m sad.",
+     "check": true
+    },
+    {
+     "prompt": "Comfort her.",
+     "choose": [
+      {
+       "sm": "Tālofa e, Sina.",
+       "en": "Oh, I’m sorry, Sina.",
+       "ok": true
+      },
+      {
+       "sm": "Mālō!",
+       "en": "Well done!",
+       "ok": false,
+       "why": "Mālō is “well done.” She’s sad, not proud. Tālofa e means “oh, poor you.”"
+      }
+     ]
+    },
+    {
+     "narr": "You call Nana. Her face fills the screen."
+    },
+    {
+     "who": "Nana Losa",
+     "sm": "Tālofa lava ʻoulua!",
+     "en": "Hello, you two!"
+    },
+    {
+     "prompt": "Greet Nana.",
+     "choose": [
+      {
+       "sm": "Tālofa lava, Nana. ʻO ā mai ʻoe?",
+       "en": "Hello, Nana. How are you?",
+       "ok": true
+      },
+      {
+       "sm": "Sau i totonu.",
+       "en": "Come inside.",
+       "ok": false,
+       "why": "Nana is in Utah. She can’t come in!"
+      }
+     ]
+    },
+    {
+     "who": "Nana Losa",
+     "sm": "Manuia faʻafetai. Sina, ʻo ā mai ʻoe?",
+     "en": "Fine, thanks. Sina, how are you?"
+    },
+    {
+     "who": "Sina",
+     "sm": "ʻUa ʻou fiafia, Nana.",
+     "en": "I’m happy, Nana.",
+     "check": true
+    },
+    {
+     "who": "Nana Losa",
+     "sm": "ʻOu te alofa iā te ʻoulua.",
+     "en": "I love you both.",
+     "check": true
+    },
+    {
+     "prompt": "Say it back.",
+     "choose": [
+      {
+       "sm": "ʻOu te alofa foʻi iā te ʻoe, Nana.",
+       "en": "I love you too, Nana.",
+       "ok": true
+      },
+      {
+       "sm": "Faʻafetai foʻi le taumafa.",
+       "en": "Thank you too for eating.",
+       "ok": false,
+       "why": "That thanks someone for eating. Tell her you love her too."
+      }
+     ]
+    },
+    {
+     "prompt": "Say goodbye.",
+     "choose": [
+      {
+       "sm": "Tōfā soifua, Nana.",
+       "en": "Goodbye, Nana.",
+       "ok": true
+      },
+      {
+       "sm": "ʻUa tā le fia?",
+       "en": "What time is it?",
+       "ok": false,
+       "why": "Late! But that’s not goodbye."
+      }
+     ]
+    }
+   ],
+   "culture": "Faʻalavelave are the big family events: weddings, funerals, a title bestowed, a birthday like Nana’s. Sina is already saving for the flight to Savaiʻi.",
+   "keep": {
+    "icon": "📸",
+    "sm": "ata",
+    "en": "a picture of you and Sina on the call"
+   },
+   "bless": {
+    "who": "Sina",
+    "sm": "ʻIa manuia lau malaga!",
+    "en": "Have a good journey!",
+    "check": true
+   }
+  },
+  {
+   "id": "laie",
+   "place": "Lāʻie, Oʻahu",
+   "region": "Hawaiʻi",
+   "lat": 21.646,
+   "lon": -157.925,
+   "host": {
+    "name": "Uncle Pita",
+    "face": "👨🏽"
+   },
+   "title": "Coconut and fire in Lāʻie",
+   "art": {
+    "sky": "day",
+    "far": "koolau",
+    "near": "lagoon",
+    "things": [
+     "fale",
+     "palm3",
+     "palm1"
+    ]
+   },
+   "intro": [
+    "Lāʻie, on Oʻahu’s north shore. Uncle Pita works in the Samoan village at the Polynesian Cultural Center, where he shows visitors how to climb a coconut tree and make fire with two sticks.",
+    "More Samoans live in Honolulu than in any other US city."
+   ],
+   "words": [
+    {
+     "sm": "fale",
+     "en": "house"
+    },
+    {
+     "sm": "fala",
+     "en": "mat"
+    },
+    {
+     "sm": "Nofo ʻi lalo.",
+     "en": "Sit down."
+    },
+    {
+     "sm": "niu",
+     "en": "coconut"
+    },
+    {
+     "sm": "afi",
+     "en": "fire"
+    }
+   ],
+   "talk": [
+    {
+     "who": "Uncle Pita",
+     "sm": "Tālofa lava! Sau i totonu.",
+     "en": "Hello! Come inside."
+    },
+    {
+     "narr": "The fale has no walls: only posts and a high round roof. Fala, woven mats, cover the floor."
+    },
+    {
+     "who": "Uncle Pita",
+     "sm": "Nofo ʻi lalo, faʻamolemole.",
+     "en": "Sit down, please."
+    },
+    {
+     "prompt": "How do you sit?",
+     "choose": [
+      {
+       "act": "Cross-legged on the mat.",
+       "ok": true
+      },
+      {
+       "act": "Legs stretched out toward Uncle.",
+       "ok": false,
+       "why": "Uncle tucks his own feet under and smiles. You follow his lead and sit cross-legged."
+      },
+      {
+       "act": "Stay standing and talk to him.",
+       "ok": false,
+       "why": "Uncle pats the mat next to him. If you ever do have to talk standing up, “Tautala tū atu” means excuse me for speaking standing."
+      }
+     ]
+    },
+    {
+     "who": "Uncle Pita",
+     "sm": "ʻO le niu lenei. ʻE te fia inu?",
+     "en": "This is a coconut. Would you like a drink?",
+     "check": true
+    },
+    {
+     "prompt": "You would.",
+     "choose": [
+      {
+       "sm": "ʻIoe, faʻamolemole.",
+       "en": "Yes, please.",
+       "ok": true
+      },
+      {
+       "sm": "ʻUa tā le fitu.",
+       "en": "It’s seven o’clock.",
+       "ok": false,
+       "why": "He offered you a drink, not the time."
+      }
+     ]
+    },
+    {
+     "narr": "He husks it on a sharp stake in a few seconds, opens it, and hands it to you."
+    },
+    {
+     "prompt": "Thank him.",
+     "choose": [
+      {
+       "sm": "Faʻafetai tele, Uncle.",
+       "en": "Thank you very much, Uncle.",
+       "ok": true
+      },
+      {
+       "sm": "Mālō!",
+       "en": "Well done!",
+       "ok": true
+      }
+     ]
+    },
+    {
+     "narr": "Then he rubs a stick along a groove in a dry log until it smokes, and blows the dust into a flame."
+    },
+    {
+     "who": "Uncle Pita",
+     "sm": "ʻO le afi!",
+     "en": "Fire!",
+     "check": true
+    }
+   ],
+   "culture": "Uncle Pita sits cross-legged on the fala and shows you where to sit. Samoan fale, Hawaiian hale and Māori whare are the same old word for house.",
+   "keep": {
+    "icon": "🥥",
+    "sm": "niu",
+    "en": "a coconut from Uncle Pita"
+   },
+   "bless": {
+    "who": "Uncle Pita",
+    "sm": "ʻIa manuia lau malaga!",
+    "en": "Have a good journey!",
+    "check": true
+   }
+  },
+  {
+   "id": "tutuila",
+   "place": "Tutuila",
+   "region": "American Samoa",
+   "lat": -14.276,
+   "lon": -170.7,
+   "host": {
+    "name": "The matai",
+    "face": "👴🏽"
+   },
+   "title": "Evening prayer under Rainmaker Mountain",
+   "art": {
+    "sky": "dusk",
+    "far": "rainmaker",
+    "near": "sea",
+    "things": [
+     "fale",
+     "church",
+     "palm1"
+    ]
+   },
+   "intro": [
+    "Pago Pago Harbor on Tutuila, American Samoa, under Rainmaker Mountain. American Samoa is a US territory: the money is the US dollar, and Samoan is spoken in every village.",
+    "You’re helping at a relative’s fale up the coast when the village’s high chief, the matai, arrives."
+   ],
+   "words": [
+    {
+     "sm": "matai",
+     "en": "chief, head of a family"
+    },
+    {
+     "sm": "Afio mai",
+     "en": "Welcome, come in (to a chief)"
+    },
+    {
+     "sm": "suafa",
+     "en": "name (respect word)"
+    },
+    {
+     "sm": "afiafi",
+     "en": "evening"
+    },
+    {
+     "sm": "sā",
+     "en": "sacred; the quiet time for evening prayer",
+     "note": "Sā is also the past tense marker."
+    }
+   ],
+   "talk": [
+    {
+     "narr": "The matai steps up into the fale."
+    },
+    {
+     "prompt": "Welcome him.",
+     "choose": [
+      {
+       "sm": "Afio mai.",
+       "en": "Welcome (to a chief).",
+       "ok": true
+      },
+      {
+       "sm": "Sau i totonu.",
+       "en": "Come inside.",
+       "ok": false,
+       "why": "Sau is the everyday word for come. For a chief, the respect word is Afio mai."
+      },
+      {
+       "sm": "Maliu mai.",
+       "en": "Welcome (to an orator).",
+       "ok": false,
+       "why": "Maliu mai is for an orator, a tulāfale. For a high chief: Afio mai."
+      }
+     ]
+    },
+    {
+     "who": "The matai",
+     "sm": "Tālofa. ʻO ai lou igoa?",
+     "en": "Hello. What’s your name?"
+    },
+    {
+     "prompt": "Tell him your name.",
+     "choose": [
+      {
+       "sm": "ʻO loʻu igoa ʻo {me}.",
+       "en": "My name is {me}.",
+       "ok": true
+      },
+      {
+       "sm": "ʻO loʻu suafa ʻo {me}.",
+       "en": "My name (respect word) is {me}.",
+       "ok": false,
+       "why": "Suafa is the respect word for a name. Use it for his name, not your own."
+      }
+     ]
+    },
+    {
+     "who": "The matai",
+     "sm": "Mālō. ʻO fea ʻe te sau ai?",
+     "en": "Good. Where do you come from?"
+    },
+    {
+     "prompt": "Where are you from?",
+     "choose": [
+      {
+       "sm": "ʻOu te sau mai Amerika.",
+       "en": "I come from America.",
+       "ok": true
+      }
+     ]
+    },
+    {
+     "who": "The matai",
+     "sm": "ʻO Amerika foʻi lenei!",
+     "en": "This is America too!",
+     "check": true
+    },
+    {
+     "narr": "He laughs. Then a bell rings across the village: it’s the sā, the time for evening prayer. Families go inside, and the road goes quiet."
+    },
+    {
+     "prompt": "What do you do?",
+     "choose": [
+      {
+       "act": "Sit quietly with the family until the bell rings again.",
+       "ok": true
+      },
+      {
+       "act": "Walk down the road to the store.",
+       "ok": false,
+       "why": "In this village, sā means everyone stays put and quiet until the second bell."
+      }
+     ]
+    },
+    {
+     "who": "The matai",
+     "sm": "ʻIa manuia lau malaga.",
+     "en": "Have a good journey.",
+     "check": true
+    },
+    {
+     "prompt": "Thank him, as you would an elder.",
+     "choose": [
+      {
+       "sm": "Faʻafetai tele. Mālō le soifua.",
+       "en": "Thank you very much. Good health to you.",
+       "ok": true
+      },
+      {
+       "sm": "Fā!",
+       "en": "Bye!",
+       "ok": false,
+       "why": "Fā is a quick bye between friends. Mālō le soifua is warmer."
+      }
+     ]
+    }
+   ],
+   "culture": "Respect words (gagana faʻaaloalo) are used for others, not for yourself: a chief’s name is his suafa, his house his maota, and for come you say afio. With children, people use the everyday words.",
+   "keep": {
+    "icon": "ula",
+    "sm": "ʻula",
+    "en": "a garland from the village"
+   },
+   "bless": {
+    "who": "The matai",
+    "sm": "ʻIa manuia lau malaga.",
+    "en": "Have a good journey.",
+    "check": true
+   }
+  },
+  {
+   "id": "suva",
+   "place": "Suva",
+   "region": "Fiji",
+   "lat": -18.15,
+   "lon": 178.45,
+   "host": {
+    "name": "Iosefa",
+    "face": "🧑🏽"
+   },
+   "title": "Hello in five languages",
+   "art": {
+    "sky": "day",
+    "far": "hills-green",
+    "near": "sea",
+    "things": [
+     "campus",
+     "palm1"
+    ]
+   },
+   "intro": [
+    "Suva, Fiji. The University of the South Pacific belongs to twelve Pacific countries, Sāmoa among them, and students come here from all of them.",
+    "Your cousin Iosefa studies here. He’s brought his friend Mere, who’s Fijian."
+   ],
+   "words": [
+    {
+     "sm": "uō",
+     "en": "friend"
+    },
+    {
+     "sm": "ʻO fea ʻe te sau ai?",
+     "en": "Where do you come from?"
+    },
+    {
+     "sm": "ʻOu te sau mai …",
+     "en": "I come from …"
+    },
+    {
+     "sm": "Fiti",
+     "en": "Fiji"
+    },
+    {
+     "sm": "Niu Sila",
+     "en": "New Zealand"
+    }
+   ],
+   "talk": [
+    {
+     "who": "Iosefa",
+     "sm": "Tālofa lava! ʻO laʻu uō lenei, ʻo Mere.",
+     "en": "Hello! This is my friend, Mere.",
+     "check": true
+    },
+    {
+     "who": "Mere",
+     "sm": "Bula!",
+     "en": "Hello! (in Fijian)"
+    },
+    {
+     "prompt": "Greet Mere.",
+     "choose": [
+      {
+       "sm": "Tālofa lava, Mere.",
+       "en": "Hello, Mere.",
+       "ok": true
+      },
+      {
+       "sm": "Tōfā, Mere.",
+       "en": "Bye, Mere.",
+       "ok": false,
+       "why": "You’ve only just met!"
+      }
+     ]
+    },
+    {
+     "who": "Mere",
+     "sm": "ʻO fea ʻe te sau ai?",
+     "en": "Where do you come from?"
+    },
+    {
+     "prompt": "She’s learning Samoan too. Answer her.",
+     "choose": [
+      {
+       "sm": "ʻOu te sau mai Amerika.",
+       "en": "I come from America.",
+       "ok": true
+      },
+      {
+       "sm": "ʻOu te sau mai Fiti.",
+       "en": "I come from Fiji.",
+       "ok": false,
+       "why": "Mere laughs. “I’m the one from Fiji!”"
+      }
+     ]
+    },
+    {
+     "narr": "Iosefa counts on his fingers: bula in Fiji, mālō e lelei in Tonga, kia ora in Aotearoa, aloha in Hawaiʻi, and tālofa at home."
+    },
+    {
+     "prompt": "Which one is Samoan?",
+     "choose": [
+      {
+       "sm": "Tālofa",
+       "en": "Samoan",
+       "ok": true
+      },
+      {
+       "sm": "Kia ora",
+       "en": "Māori",
+       "ok": false,
+       "why": "That’s Māori. You’ll hear it at the next stop."
+      },
+      {
+       "sm": "Bula",
+       "en": "Fijian",
+       "ok": false,
+       "why": "That’s Fijian, Mere’s hello."
+      }
+     ]
+    },
+    {
+     "who": "Iosefa",
+     "sm": "ʻE te alu i fea?",
+     "en": "Where are you going?",
+     "check": true
+    },
+    {
+     "prompt": "You’re flying to New Zealand next.",
+     "choose": [
+      {
+       "sm": "ʻOu te alu i Niu Sila.",
+       "en": "I’m going to New Zealand.",
+       "ok": true
+      },
+      {
+       "sm": "ʻOu te sau mai Amerika.",
+       "en": "I come from America.",
+       "ok": false,
+       "why": "That’s where you’re from. He asked where you’re going."
+      }
+     ]
+    }
+   ],
+   "culture": "Samoan, Tongan, Māori and Hawaiian are Polynesian languages, close cousins. Fijian is a more distant cousin: house is fale in Samoan, whare in Māori, hale in Hawaiian and vale in Fijian.",
+   "keep": {
+    "icon": "🐚",
+    "sm": "pule",
+    "en": "a cowrie shell from Suva Harbour"
+   },
+   "bless": {
+    "who": "Iosefa",
+    "sm": "ʻIa manuia lau malaga!",
+    "en": "Have a good journey!",
+    "check": true
+   }
+  },
+  {
+   "id": "akl",
+   "place": "South Auckland",
+   "region": "Aotearoa",
+   "lat": -36.97,
+   "lon": 174.8,
+   "host": {
+    "name": "The faifeʻau",
+    "face": "👨🏽‍🦳"
+   },
+   "title": "After church in South Auckland",
+   "art": {
+    "sky": "day",
+    "far": "auckland",
+    "near": "sea",
+    "things": [
+     "church",
+     "trees"
+    ]
+   },
+   "intro": [
+    "Auckland, Aotearoa. Samoans are the biggest Pacific community in New Zealand, and South Auckland is one of its hearts. Every March, high schools from across the city perform at Polyfest.",
+    "It’s Sunday. After the service, the minister and his wife greet everyone at the door."
+   ],
+   "words": [
+    {
+     "sm": "faifeʻau",
+     "en": "church minister"
+    },
+    {
+     "sm": "lau susuga",
+     "en": "you (to a minister, teacher or guest)"
+    },
+    {
+     "sm": "Susū mai",
+     "en": "Welcome, come in (respectful)"
+    },
+    {
+     "sm": "faletua",
+     "en": "a minister’s or chief’s wife (respect word)"
+    },
+    {
+     "sm": "Mānaia tele le kuka.",
+     "en": "The food is very nice."
+    }
+   ],
+   "talk": [
+    {
+     "prompt": "Greet the minister.",
+     "choose": [
+      {
+       "sm": "Tālofa lava, lau susuga.",
+       "en": "Hello, sir.",
+       "ok": true
+      },
+      {
+       "sm": "Tālofa, uō!",
+       "en": "Hi, friend!",
+       "ok": false,
+       "why": "Uō is “friend.” A minister is lau susuga."
+      }
+     ]
+    },
+    {
+     "who": "The faifeʻau",
+     "sm": "Susū mai. ʻO ā mai ʻoe?",
+     "en": "Welcome. How are you?"
+    },
+    {
+     "prompt": "Answer, and ask him back.",
+     "choose": [
+      {
+       "sm": "Manuia faʻafetai. ʻAe ā lau susuga?",
+       "en": "Fine, thanks. And you, sir?",
+       "ok": true
+      },
+      {
+       "sm": "Manuia faʻafetai. ʻAe ā ʻoe?",
+       "en": "Fine, thanks. And you?",
+       "ok": false,
+       "why": "Close! To a minister, put lau susuga in place of ʻoe."
+      }
+     ]
+    },
+    {
+     "who": "The faletua",
+     "sm": "Susū maia i le meaʻai.",
+     "en": "Come and have something to eat."
+    },
+    {
+     "prompt": "Answer the minister’s wife.",
+     "choose": [
+      {
+       "sm": "Faʻafetai tele.",
+       "en": "Thank you very much.",
+       "ok": true
+      }
+     ]
+    },
+    {
+     "narr": "At the table, the minister is asked to say grace."
+    },
+    {
+     "prompt": "What do you do?",
+     "choose": [
+      {
+       "act": "Wait, head bowed, until grace is over.",
+       "ok": true
+      },
+      {
+       "act": "Start on the chop suey: you’re hungry.",
+       "ok": false,
+       "why": "Everyone at this table waits for the lotu, the grace, and the amene at the end."
+      }
+     ]
+    },
+    {
+     "narr": "After the meal, the faletua comes by your seat."
+    },
+    {
+     "prompt": "Tell her the food was good.",
+     "choose": [
+      {
+       "sm": "Mānaia tele le kuka.",
+       "en": "The food is very nice.",
+       "ok": true
+      },
+      {
+       "sm": "E taugatā.",
+       "en": "It’s expensive.",
+       "ok": false,
+       "why": "That’s for the market!"
+      }
+     ]
+    },
+    {
+     "who": "The faletua",
+     "sm": "Faʻafetai foʻi le taumafa.",
+     "en": "Thank you too for eating."
+    }
+   ],
+   "culture": "A minister is called the feagaiga, the covenant, and his wife the faletua. Lau susuga is “you” said with respect.",
+   "keep": {
+    "icon": "siapo",
+    "sm": "siapo",
+    "en": "a piece of siapo (tapa cloth) from the faletua"
+   },
+   "bless": {
+    "who": "The faifeʻau",
+    "sm": "ʻIa manuia lau malaga.",
+    "en": "Have a good journey.",
+    "check": true
+   }
+  },
+  {
+   "id": "apia",
+   "place": "Apia",
+   "region": "Sāmoa",
+   "lat": -13.833,
+   "lon": -171.765,
+   "host": {
+    "name": "Malia",
+    "face": "👵🏽"
+   },
+   "title": "Taro at the Apia market",
+   "art": {
+    "sky": "morning",
+    "far": "upolu",
+    "near": "sea",
+    "things": [
+     "stalls",
+     "palm1"
+    ]
+   },
+   "intro": [
+    "Apia, the capital of Sāmoa. Maketi Fou, the main market, is piled with taro, bananas and coconuts.",
+    "Nana asked you to bring taro to Savaiʻi. Malia has the best at her stall."
+   ],
+   "words": [
+    {
+     "sm": "talo",
+     "en": "taro"
+    },
+    {
+     "sm": "faʻi",
+     "en": "banana"
+    },
+    {
+     "sm": "taugofie",
+     "en": "cheap"
+    },
+    {
+     "sm": "taugatā",
+     "en": "expensive"
+    },
+    {
+     "sm": "ʻUa ʻuma.",
+     "en": "It’s finished, all gone."
+    }
+   ],
+   "talk": [
+    {
+     "who": "Malia",
+     "sm": "Tālofa lava! Susū mai.",
+     "en": "Hello! Welcome."
+    },
+    {
+     "prompt": "Ask for taro.",
+     "choose": [
+      {
+       "sm": "Tālofa lava. E iai ni tou talo, faʻamolemole?",
+       "en": "Hello. Do you have any taro, please?",
+       "ok": true
+      },
+      {
+       "sm": "E iai ni tou pani, faʻamolemole?",
+       "en": "Do you have any buns, please?",
+       "ok": false,
+       "why": "That’s the Portland festival! Here you want talo."
+      }
+     ]
+    },
+    {
+     "who": "Malia",
+     "sm": "ʻIoe. E tele.",
+     "en": "Yes. There’s plenty."
+    },
+    {
+     "prompt": "Ask the price another way.",
+     "choose": [
+      {
+       "sm": "ʻO le ā le tau?",
+       "en": "What is the price?",
+       "ok": true
+      },
+      {
+       "sm": "ʻO le ā le asō?",
+       "en": "What’s today?",
+       "ok": false,
+       "why": "That asks what day it is."
+      }
+     ]
+    },
+    {
+     "who": "Malia",
+     "sm": "E sefulu tālā i le ʻato e tasi.",
+     "en": "Ten tālā a basket.",
+     "check": true
+    },
+    {
+     "prompt": "A whole basket for ten tālā is a good price.",
+     "choose": [
+      {
+       "sm": "E taugofie! ʻAumai, faʻamolemole.",
+       "en": "That’s cheap! I’ll take it, please.",
+       "ok": true
+      },
+      {
+       "sm": "E taugatā.",
+       "en": "That’s expensive.",
+       "ok": false,
+       "why": "Taugatā means expensive. Ten tālā for a basket of taro is a good price."
+      }
+     ]
+    },
+    {
+     "who": "Malia",
+     "sm": "ʻO le faʻi, ʻua ʻuma.",
+     "en": "The bananas are all gone.",
+     "check": true
+    },
+    {
+     "prompt": "That’s alright.",
+     "choose": [
+      {
+       "sm": "E lē afaina.",
+       "en": "It’s alright.",
+       "ok": true
+      },
+      {
+       "sm": "Faʻafetai foʻi.",
+       "en": "Thank you too.",
+       "ok": false,
+       "why": "Save “thank you too” for when she thanks you."
+      }
+     ]
+    },
+    {
+     "who": "Malia",
+     "sm": "Faʻafetai!",
+     "en": "Thank you!"
+    },
+    {
+     "prompt": "Thank her back.",
+     "choose": [
+      {
+       "sm": "Faʻafetai foʻi.",
+       "en": "Thank you too.",
+       "ok": true
+      }
+     ]
+    }
+   ],
+   "culture": "Sāmoa’s money is the tālā, and a tālā is 100 sene. Malia’s prices are chalked on a board by the taro.",
+   "keep": {
+    "icon": "🧺",
+    "sm": "ʻato talo",
+    "en": "a basket of taro for Savaiʻi"
+   },
+   "bless": {
+    "who": "Malia",
+    "sm": "ʻIa manuia lau malaga!",
+    "en": "Have a good journey!",
+    "check": true
+   }
+  },
+  {
+   "id": "upolu",
+   "place": "A village on Upolu",
+   "region": "Sāmoa",
+   "lat": -14.02,
+   "lon": -171.55,
+   "host": {
+    "name": "The orator",
+    "face": "👴🏽"
+   },
+   "title": "The ʻava welcome",
+   "art": {
+    "sky": "dusk",
+    "far": "upolu",
+    "near": "lagoon",
+    "things": [
+     "fale",
+     "tanoa",
+     "palm3"
+    ]
+   },
+   "intro": [
+    "Your traveling party, the malaga, reaches the village where Nana’s cousins live. They welcome the malaga with an ʻava ceremony.",
+    "An orator, a tulāfale, speaks for the village, his fue (fly whisk) over one shoulder."
+   ],
+   "words": [
+    {
+     "sm": "tulāfale",
+     "en": "orator"
+    },
+    {
+     "sm": "Maliu mai",
+     "en": "Welcome, come in (to an orator)"
+    },
+    {
+     "sm": "ʻava",
+     "en": "kava, the ceremonial drink",
+     "note": "With the same spelling, ʻava also means beard."
+    },
+    {
+     "sm": "tānoa",
+     "en": "the wooden bowl for ʻava"
+    },
+    {
+     "sm": "ʻIa manuia!",
+     "en": "May it go well! (said before drinking ʻava)"
+    }
+   ],
+   "talk": [
+    {
+     "narr": "The orator stands and welcomes the malaga in a long, beautiful speech."
+    },
+    {
+     "prompt": "What do you do during the speech?",
+     "choose": [
+      {
+       "act": "Sit cross-legged, still, and listen.",
+       "ok": true
+      },
+      {
+       "act": "Whisper to your cousin about the food.",
+       "ok": false,
+       "why": "Your cousin shakes her head: not during the speech."
+      }
+     ]
+    },
+    {
+     "narr": "An older orator arrives late from the next village."
+    },
+    {
+     "prompt": "Welcome him.",
+     "choose": [
+      {
+       "sm": "Maliu mai.",
+       "en": "Welcome (to an orator).",
+       "ok": true
+      },
+      {
+       "sm": "Afio mai.",
+       "en": "Welcome (to a chief).",
+       "ok": false,
+       "why": "Afio mai is for a high chief, an aliʻi. An orator gets Maliu mai."
+      },
+      {
+       "sm": "Sau!",
+       "en": "Come!",
+       "ok": false,
+       "why": "Sau is the everyday word. For an orator: Maliu mai."
+      }
+     ]
+    },
+    {
+     "narr": "The ʻava is mixed in the tānoa and served in a coconut-shell cup, called out to each person in turn. Yours comes."
+    },
+    {
+     "prompt": "What do you do with the cup?",
+     "choose": [
+      {
+       "act": "Pour a few drops onto the mat, say “ʻIa manuia,” and drink.",
+       "ok": true
+      },
+      {
+       "act": "Gulp it down without a word.",
+       "ok": false,
+       "why": "Your uncle shows you: a few drops first, ʻIa manuia, then drink."
+      }
+     ]
+    },
+    {
+     "who": "The orator",
+     "sm": "ʻIa manuia!",
+     "en": "May it go well!"
+    }
+   ],
+   "culture": "Orators (tulāfale) speak for this village. Chiefs (aliʻi) and orators each have their own respect words: afio for a chief, maliu for an orator.",
+   "keep": {
+    "icon": "ipu",
+    "sm": "ipu ʻava",
+    "en": "a coconut-shell cup"
+   },
+   "bless": {
+    "who": "The orator",
+    "sm": "ʻIa manuia lau malaga.",
+    "en": "Have a good journey.",
+    "check": true
+   }
+  },
+  {
+   "id": "savaii",
+   "place": "Savaiʻi",
+   "region": "Sāmoa",
+   "lat": -13.65,
+   "lon": -172.45,
+   "host": {
+    "name": "Papa Ioane",
+    "face": "👴🏽"
+   },
+   "title": "The umu on Sunday morning",
+   "art": {
+    "sky": "morning",
+    "far": "savaii",
+    "near": "lagoon",
+    "things": [
+     "umu",
+     "church",
+     "palm3"
+    ]
+   },
+   "intro": [
+    "Savaiʻi, the big island. Nana’s brother Ioane is the matai of the family here.",
+    "Before church, the young men light the umu, an oven of hot stones on the ground, for the toʻonaʻi."
+   ],
+   "words": [
+    {
+     "sm": "umu",
+     "en": "earth oven"
+    },
+    {
+     "sm": "toʻonaʻi",
+     "en": "Sunday meal"
+    },
+    {
+     "sm": "taumafa",
+     "en": "to eat (respect word)"
+    },
+    {
+     "sm": "palusami",
+     "en": "taro leaves baked in coconut cream"
+    },
+    {
+     "sm": "toeaʻina",
+     "en": "old man, elder"
+    }
+   ],
+   "talk": [
+    {
+     "who": "Papa Ioane",
+     "sm": "Tālofa lava, {me}! Sau i totonu.",
+     "en": "Hello, {me}! Come inside."
+    },
+    {
+     "prompt": "Greet him the way you would an elder.",
+     "choose": [
+      {
+       "sm": "Tālofa lava. Mālō le soifua.",
+       "en": "Hello. Good health to you.",
+       "ok": true
+      },
+      {
+       "sm": "Hey, Papa.",
+       "en": "Hey, Papa.",
+       "ok": false,
+       "why": "He’s the matai. Tālofa lava, and a wish for his health."
+      }
+     ]
+    },
+    {
+     "narr": "After church the toʻonaʻi is laid out on the mats: palusami, taro and fish from the umu. Papa Ioane sits at the head. The young people serve."
+    },
+    {
+     "prompt": "Who gets a plate first?",
+     "choose": [
+      {
+       "act": "Papa Ioane, then the other elders and guests.",
+       "ok": true
+      },
+      {
+       "act": "You do: you helped with the umu.",
+       "ok": false,
+       "why": "At Papa Ioane’s, the elders and guests eat first and the young ones serve."
+      }
+     ]
+    },
+    {
+     "prompt": "Ask him to eat.",
+     "choose": [
+      {
+       "sm": "Faʻamolemole, taumafa.",
+       "en": "Please, eat (respect word).",
+       "ok": true
+      },
+      {
+       "sm": "ʻAi!",
+       "en": "Eat!",
+       "ok": false,
+       "why": "ʻAi is the everyday word. Taumafa is the respect word for eat."
+      }
+     ]
+    },
+    {
+     "narr": "Everyone waits while Papa Ioane says grace."
+    },
+    {
+     "who": "Papa Ioane",
+     "sm": "{me}, ʻe te fia ʻai?",
+     "en": "{me}, are you hungry?"
+    },
+    {
+     "prompt": "You are.",
+     "choose": [
+      {
+       "sm": "ʻIoe, faʻamolemole.",
+       "en": "Yes, please.",
+       "ok": true
+      }
+     ]
+    },
+    {
+     "narr": "Later, full of palusami."
+    },
+    {
+     "prompt": "Tell him the food was good.",
+     "choose": [
+      {
+       "sm": "Mānaia tele le kuka.",
+       "en": "The food is very nice.",
+       "ok": true
+      }
+     ]
+    },
+    {
+     "who": "Papa Ioane",
+     "sm": "Faʻafetai foʻi le taumafa.",
+     "en": "Thank you too for eating."
+    }
+   ],
+   "culture": "At Papa Ioane’s, Sunday is church, the toʻonaʻi and rest: the umu is lit early, the elders eat first, and the afternoon is quiet.",
+   "keep": {
+    "icon": "🍃",
+    "sm": "lau talo",
+    "en": "a taro leaf from the palusami"
+   },
+   "bless": {
+    "who": "Papa Ioane",
+    "sm": "ʻIa manuia!",
+    "en": "May it go well!",
+    "check": true
+   }
+  },
+  {
+   "id": "home",
+   "place": "Nana’s village, Savaiʻi",
+   "region": "Sāmoa",
+   "lat": -13.58,
+   "lon": -172.25,
+   "host": {
+    "name": "Nana Losa",
+    "face": "👵🏽"
+   },
+   "title": "Nana’s 80th",
+   "art": {
+    "sky": "night",
+    "far": "savaii",
+    "near": "lagoon",
+    "things": [
+     "fale",
+     "lights",
+     "palm3",
+     "stars"
+    ]
+   },
+   "intro": [
+    "Everyone is here: Aunty Mele from California, Uncle Tavita from Washington, Sina from New York, the cousins from Auckland and Suva, Papa Ioane and the whole village.",
+    "Nana stands, and asks you to welcome the family, in Samoan."
+   ],
+   "words": [
+    {
+     "sm": "Aso fānau",
+     "en": "birthday"
+    },
+    {
+     "sm": "Susū mai",
+     "en": "Welcome, come in (respectful)"
+    },
+    {
+     "sm": "Faʻafetai le alofa.",
+     "en": "Thank you for the love."
+    },
+    {
+     "sm": "faʻaaloalo",
+     "en": "respect"
+    }
+   ],
+   "talk": [
+    {
+     "narr": "Chiefs, orators, the minister and the whole ʻāiga are seated on the mats. You stand. You start with the highest."
+    },
+    {
+     "prompt": "The first words of your welcome:",
+     "choose": [
+      {
+       "sm": "Afio mai,",
+       "en": "Welcome, chiefs,",
+       "ok": true
+      },
+      {
+       "sm": "Susū mai,",
+       "en": "Welcome, everyone,",
+       "ok": false,
+       "why": "Start with the highest: chiefs first."
+      },
+      {
+       "sm": "Tālofa,",
+       "en": "Hi,",
+       "ok": false,
+       "why": "Warmer and higher for a gathering like this. Chiefs first."
+      }
+     ]
+    },
+    {
+     "prompt": "Then:",
+     "choose": [
+      {
+       "sm": "maliu mai,",
+       "en": "welcome, orators,",
+       "ok": true
+      },
+      {
+       "sm": "afio mai,",
+       "en": "welcome, chiefs,",
+       "ok": false,
+       "why": "You’ve welcomed the chiefs. Now the orators."
+      }
+     ]
+    },
+    {
+     "prompt": "And everyone else:",
+     "choose": [
+      {
+       "sm": "susū mai.",
+       "en": "and welcome, all.",
+       "ok": true
+      },
+      {
+       "sm": "sau.",
+       "en": "come.",
+       "ok": false,
+       "why": "Not for a gathering of elders! Susū mai welcomes everyone with respect."
+      }
+     ]
+    },
+    {
+     "narr": "A murmur of approval. Afio mai, maliu mai, susū mai."
+    },
+    {
+     "prompt": "Say what today is.",
+     "choose": [
+      {
+       "sm": "ʻO le aso fānau lenei o Nana.",
+       "en": "Today is Nana’s birthday.",
+       "ok": true
+      },
+      {
+       "sm": "ʻO le Aso Lulu.",
+       "en": "It’s Wednesday.",
+       "ok": false,
+       "why": "True, but that’s not why everyone came."
+      }
+     ]
+    },
+    {
+     "prompt": "And thank them for coming all this way.",
+     "choose": [
+      {
+       "sm": "Faʻafetai le alofa.",
+       "en": "Thank you for the love.",
+       "ok": true
+      },
+      {
+       "sm": "ʻUa ʻuma.",
+       "en": "It’s all gone.",
+       "ok": false,
+       "why": "Not the food, not yet!"
+      }
+     ]
+    },
+    {
+     "narr": "Nana takes the ʻie tōga from Utah and spreads it out for everyone to see."
+    },
+    {
+     "who": "Nana Losa",
+     "sm": "Mālō! ʻOu te alofa iā te ʻoe.",
+     "en": "Well done! I love you.",
+     "check": true
+    },
+    {
+     "who": "Nana Losa",
+     "sm": "E suamalie feiloaʻiga ae ʻoʻona tēteʻaga.",
+     "en": "Meeting is sweet, but parting is bitter."
+    }
+   ],
+   "culture": "Nana’s welcome starts with the chiefs, then the orators, then everyone: Afio mai, maliu mai, susū mai. You’ve now spoken with an aunty, a matai, an orator, a minister and Nana, each with their own words.",
+   "keep": {
+    "icon": "⭐",
+    "sm": "faʻamanuia",
+    "en": "Nana’s blessing"
+   },
+   "bless": {
+    "who": "Nana Losa",
+    "sm": "ʻIa manuia!",
+    "en": "May it go well!",
+    "check": true
+   }
+  }
+ ]
+}
